@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+  background-color: black;
+}
+
+header div img {
+  width: 160px;
+  height: 50px;
+  object-fit: cover;
+}
+
+header {
+  margin-top: 35px;
+  margin-left: 50px;
+  margin-bottom: 65px;
+}
+
+main {
+  background-color: black;
+  margin-left: 50px;
+}
+
+h1 {
+  color: white;
+  font-size: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+section div {
+  display: flex;
+  overflow: hidden;
+  width: auto;
+  margin-bottom: 30px;
+}
+
+section div img {
+  width: 220px;
+  height: 120px;
+  flex-shrink: 0;
+}
